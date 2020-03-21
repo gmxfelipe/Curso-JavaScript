@@ -1,25 +1,27 @@
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Curso JavaScript</title>
     </head>
     <body>
-        <script>
-            var nome = "Felipe";
-            var idade = 17;
-            var peso = 65.0;
-            var humano = true;
-
-            var alunos = ['Felipe', 'Gabriel', 'Lucas'];
-
-            var aluno = {
-                nome: 'Felipe',
-                idade: 17,
-                peso : 65.0,
-                humano: true
-            };
-
-            console.log(alunos[0]);
-            console.log(aluno.peso);
-        </script>
+        <div id="app">
+            <ul>
+                <li>
+                    Fazer café
+                    <a href="#">Excluir</a>
+                </li>
+                <li>
+                    Estudar JavaScript
+                    <a href="#">Excluir</a>
+                </li>
+                <li>
+                    Acessar Comunidade da rocketseat
+                    <a href="#">Excluir</a>
+                </li>
+                <input type="text" placeholder="Digite um todo">
+                <button>Adicionar</button>
+            </ul>
+        </div>
+        <script src="todo.js"></script>
     </body>
 </html>
